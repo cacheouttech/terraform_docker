@@ -1,6 +1,6 @@
-# Pulls the image
-resource "docker_image" "ubuntu" {
-  name = "ubuntu:latest"
+# Pulls CentOS Docker image
+resource "docker_image" "centos" {
+  name = "centos:latest"
 }
 
 #Create an ECS Cluster
@@ -65,6 +65,22 @@ resource "aws_s3_bucket" "state" {
     prevent_destroy = true
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
