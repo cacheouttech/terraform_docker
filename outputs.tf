@@ -10,3 +10,4 @@ output "aws_ecs_cluster_capacity_providers" {
   description = "Compute serverless engine for ECS"
 }
 
+
